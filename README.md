@@ -33,3 +33,4 @@ tiny bugs and various display errors (such is life). Overall, this project was r
 * Adding integration testing in the frontend to make sure endpoints are being hit correctly.
   a) Checking the response status codes to make sure we're getting what we expect e.g. 2xx, 3xx, 4xx, 5xx
   b) Checking the response content body to make sure we're getting the correct expected data
+* Tidying up the code logic instead of using "stream of consciousness" logic. (Refactoring)
