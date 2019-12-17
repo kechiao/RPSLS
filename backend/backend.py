@@ -61,7 +61,6 @@ def play_game():
         result_dict['results'] = 'lose'
     else:
         result_dict['results'] = 'win'
-    print(result_dict)
     return jsonify(result_dict)
 
 def get_json_randomNumber():

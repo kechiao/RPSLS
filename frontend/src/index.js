@@ -14,7 +14,6 @@ class Game extends React.Component {
     this.state = {
       game_number: 0,
       game_results: [
-        { result: null, player_choice: null, computer_choice: null }
       ]
     };
   }
@@ -45,7 +44,6 @@ class Game extends React.Component {
             }
           ])
         });
-        console.log(this.state.game_results);
       })
       .catch(response_error => {
         console.log(`There was an error: ${response_error}`);
@@ -68,7 +66,6 @@ class Game extends React.Component {
     this.setState({
       game_number: 0,
       game_results: [
-        { result: null, player_choice: null, computer_choice: null }
       ]
     });
   }
